@@ -1,0 +1,13 @@
+COMport, COM13		#COM port to use
+rateHeat, 0.02 		#Heat accumulation speed
+rateCool, 0.02 		#Cooldown speed
+rateMult, 0.5  		#Multiplier to the rate for heat at Darlington-level
+overheatWarn, 100 	#Percent heat level to warn (set to 100 to disable warnings)
+overheatStop, 100 	#Percent heat to disable a note (set to 100 to never disable notes)
+offlineMode, 0 	#Doesn't try to connect to an arduino if true
+overdue, 1		#Displays warnings when notes are sent overdue
+fastCommands, 0	#Displays warnings when note commands are unreasonably fast
+shortNote, 0		#Displays warnings when notes were too short
+outOfRange, 1		#Displays warnings when notes were played that are out of range of the piano
+errNote, 1		#Displays warnings when an erroneous note is played
+pedalMsgs, 0		#Displays messages when the pedal state is changed
